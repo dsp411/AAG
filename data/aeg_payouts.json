@@ -1,0 +1,76 @@
+[
+  {
+    "id": "payout_1791443095751_1jahb",
+    "userId": "user_sophia",
+    "username": "sophia",
+    "billingPeriod": "2026-10",
+    "monthIndex": 0,
+    "totalRevenue": 22000,
+    "totalExpenses": 6200,
+    "grossNetProfit": 15800,
+    "carriedLossDeducted": 0,
+    "netPayoutAmount": 15800,
+    "newLossCarryover": 0,
+    "currency": "USD",
+    "status": "succeeded",
+    "connectedBankAccountId": "bank_starter",
+    "connectedBankName": "Main Vault Account",
+    "gatewayTransferId": "inapp_pay_1791443095751",
+    "idempotencyKey": "payout_sophia_2026-10_m0",
+    "breakdown": {
+      "revenues": {
+        "businessProfits": 0,
+        "rentalIncomes": 0,
+        "salariesAndJobs": 22000,
+        "dividendsAndInterests": 0,
+        "totalRevenue": 22000
+      },
+      "expenses": {
+        "businessOverheads": 6200,
+        "emiObligations": 0,
+        "recurringExpenses": 0,
+        "propertyTaxesAndMaint": 0,
+        "totalExpenses": 6200
+      }
+    },
+    "executedAt": "2026-10-08T07:04:55.750Z",
+    "createdAt": "2026-10-08T07:04:55.750Z"
+  },
+  {
+    "id": "payout_1791443095700_k0e43",
+    "userId": "user_davis",
+    "username": "davis",
+    "billingPeriod": "2026-10",
+    "monthIndex": 0,
+    "totalRevenue": 155648,
+    "totalExpenses": 32917,
+    "grossNetProfit": 122731,
+    "carriedLossDeducted": 0,
+    "netPayoutAmount": 122731,
+    "newLossCarryover": 0,
+    "currency": "USD",
+    "status": "succeeded",
+    "connectedBankAccountId": "bank_chase",
+    "connectedBankName": "JPMorgan Chase Private Client",
+    "gatewayTransferId": "inapp_pay_1791443095700",
+    "idempotencyKey": "payout_davis_2026-10_m0",
+    "breakdown": {
+      "revenues": {
+        "businessProfits": 45150,
+        "rentalIncomes": 13800,
+        "salariesAndJobs": 94533.33333333334,
+        "dividendsAndInterests": 2165,
+        "totalRevenue": 155648
+      },
+      "expenses": {
+        "businessOverheads": 16280,
+        "emiObligations": 11372,
+        "recurringExpenses": 2420,
+        "propertyTaxesAndMaint": 2845,
+        "totalExpenses": 32917
+      }
+    },
+    "executedAt": "2026-10-08T07:04:55.697Z",
+    "createdAt": "2026-10-08T07:04:55.697Z"
+  }
+]

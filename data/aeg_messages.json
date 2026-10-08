@@ -1,0 +1,77 @@
+[
+  {
+    "id": "msg_demo_1",
+    "senderUsername": "sophia",
+    "receiverUsername": "davis",
+    "text": "Hey Davis! Saw your new 911 GT3 RS in your fleet. Looks absolutely incredible! 🔥",
+    "timestamp": "2026-10-04T13:58:27.612Z",
+    "read": true
+  },
+  {
+    "id": "msg_demo_2",
+    "senderUsername": "davis",
+    "receiverUsername": "sophia",
+    "text": "Thanks Sophia! Just collected it this weekend. Check out the spec card:",
+    "sharedData": {
+      "type": "car",
+      "title": "Porsche 911 GT3 RS (992)",
+      "subtitle": "Weissach Package · 4.0L Naturally Aspirated Flat-6",
+      "amount": 275000,
+      "imageUrl": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1200&q=80",
+      "details": {
+        "power": "518 hp @ 8,500 rpm",
+        "acceleration": "0-60 mph in 3.0s",
+        "topSpeed": "184 mph"
+      }
+    },
+    "timestamp": "2026-10-04T17:58:27.612Z",
+    "read": true
+  },
+  {
+    "id": "msg_demo_3",
+    "senderUsername": "sophia",
+    "receiverUsername": "davis",
+    "text": "Insane build! Also sending over the return split for the joint venture consulting project we closed.",
+    "sharedData": {
+      "type": "money_transfer",
+      "title": "Direct Bank Wire Received",
+      "subtitle": "From @sophia Main Vault → @davis Checking",
+      "amount": 12500,
+      "details": {
+        "reference": "Q3 Enterprise Consulting Dividend",
+        "status": "Completed"
+      }
+    },
+    "timestamp": "2026-10-05T08:58:27.612Z",
+    "read": true
+  },
+  {
+    "id": "msg_demo_4",
+    "senderUsername": "davis",
+    "receiverUsername": "sophia",
+    "text": "Received! Credited right into the primary vault. Let me know when you want to look at the next commercial branch acquisition.",
+    "timestamp": "2026-10-05T11:58:27.612Z",
+    "read": false
+  },
+  {
+    "id": "msg_wire_wire_1791208707655_fft2c",
+    "senderUsername": "davis",
+    "receiverUsername": "sophia",
+    "text": "💸 Sent $100 to your bank account! Note: \"Test P2P Wire\"",
+    "sharedData": {
+      "type": "money_transfer",
+      "title": "P2P Wire: $100",
+      "subtitle": "From @davis (JPMorgan Chase Private Client) → @sophia (Main Vault Account)",
+      "amount": 100,
+      "currency": "USD",
+      "details": {
+        "transactionId": "wire_1791208707655_fft2c",
+        "memo": "Test P2P Wire",
+        "timestamp": "2026-10-05T13:58:27.655Z",
+        "status": "Settled Instantly"
+      }
+    },
+    "timestamp": "2026-10-05T13:58:27.655Z",
+    "read": false
+  }
+]

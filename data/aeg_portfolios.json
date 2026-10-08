@@ -1,0 +1,833 @@
+{
+  "davis": {
+    "user": {
+      "id": "user_davis",
+      "username": "davis",
+      "password": "password123",
+      "fullName": "Davis Sandhu",
+      "email": "davissandhu2@gmail.com",
+      "currency": "USD",
+      "createdAt": "2026-01-15T09:00:00.000Z",
+      "bio": "Tech entrepreneur, venture builder & multi-asset investor tracking compounding portfolios, exotic vehicles, luxury real estate, and financial independence.",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "isMasterAdmin": true,
+      "occupationTitle": "Founder & Managing Partner",
+      "companyName": "AAG Capital & Ventures",
+      "industry": "FinTech, Artificial Intelligence & High-Performance Assets",
+      "careerLevel": "Founder & CEO",
+      "monthlySalary": 28500,
+      "annualCareerRaiseRate": 8.5,
+      "experienceYears": 9,
+      "workHoursPerWeek": 48,
+      "startingAge": 28,
+      "birthDate": "1998-06-12",
+      "birthMonth": 6,
+      "targetRetirementAge": 45,
+      "lifeExpectancy": 88,
+      "locationCity": "Bellevue & Seattle, WA",
+      "locationCountry": "United States",
+      "relationshipStatus": "In a Relationship",
+      "dependentsCount": 0,
+      "lifestyleTier": "Luxury & High-Flyer",
+      "residenceType": "Waterfront Villa & City Penthouse",
+      "monthlyLifestyleExpense": 8500,
+      "lifestyleBreakdown": {
+        "diningAndFineFood": 2500,
+        "travelAndAviation": 3000,
+        "fitnessAndWellness": 1000,
+        "shoppingAndWardrobe": 1200,
+        "hobbiesAndMotorsport": 800
+      },
+      "hobbies": [
+        "Supercar Track Days",
+        "Private Aviation & Jet Piloting",
+        "Horology & Rare Timepieces",
+        "Waterfront Boating & Yachting",
+        "Venture Tech Investing"
+      ],
+      "lifePhilosophy": "Relentless compounding of capital, physical peak health, absolute time sovereignty, and enduring enterprise impact.",
+      "lifeGoals": [
+        {
+          "id": "goal_1",
+          "title": "Reach $5,000,000 Liquid Net Worth",
+          "targetAge": 32,
+          "targetNetWorth": 5000000,
+          "category": "wealth",
+          "completed": false
+        },
+        {
+          "id": "goal_2",
+          "title": "Acquire 76ft Luxury Motor Yacht",
+          "targetAge": 30,
+          "targetNetWorth": 4000000,
+          "category": "lifestyle",
+          "completed": true
+        },
+        {
+          "id": "goal_3",
+          "title": "Complete Commercial Pilot Jet Certification",
+          "targetAge": 33,
+          "category": "career",
+          "completed": false
+        },
+        {
+          "id": "goal_4",
+          "title": "Achieve Complete Financial Freedom (FIRE Target)",
+          "targetAge": 45,
+          "targetNetWorth": 15000000,
+          "category": "wealth",
+          "completed": false
+        }
+      ]
+    },
+    "simulatedMonth": 0,
+    "simulationStartDate": "2026-10-01",
+    "cars": [
+      {
+        "id": "car_1",
+        "name": "Porsche 911 GT3 (992)",
+        "make": "Porsche",
+        "model": "911 GT3",
+        "year": 2024,
+        "vehicleType": "supercar",
+        "condition": "Brand New",
+        "licensePlate": "P911-WTH",
+        "purchasePrice": 228000,
+        "currentValue": 242000,
+        "annualDepreciationRate": -3,
+        "interestRateYearly": 4.8,
+        "monthlyInsuranceCost": 380,
+        "purchasedFromBankId": "bank_chase",
+        "imageUrl": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1200&q=80",
+        "photos": [
+          "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "notes": "Shark Blue, Carbon Ceramics, Track Package. Maintained in private garage."
+      },
+      {
+        "id": "car_2",
+        "name": "Tesla Model S Plaid",
+        "make": "Tesla",
+        "model": "Model S Plaid",
+        "year": 2024,
+        "vehicleType": "car",
+        "condition": "Brand New",
+        "licensePlate": "EV-PLAID",
+        "purchasePrice": 94000,
+        "currentValue": 82000,
+        "annualDepreciationRate": 12,
+        "interestRateYearly": 5.2,
+        "linkedLoanId": "emi_tesla",
+        "monthlyInsuranceCost": 260,
+        "purchasedFromBankId": "bank_chase",
+        "imageUrl": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1200&q=80",
+        "photos": [
+          "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "notes": "Daily driver with Full Self-Driving. Active 4-year low APR auto loan."
+      },
+      {
+        "id": "veh_jet_1",
+        "name": "Gulfstream G280 Executive Jet",
+        "make": "Gulfstream",
+        "model": "G280",
+        "year": 2023,
+        "vehicleType": "jet",
+        "condition": "Second Hand",
+        "licensePlate": "N882AE",
+        "purchasePrice": 8500000,
+        "currentValue": 8250000,
+        "annualDepreciationRate": 4.5,
+        "interestRateYearly": 6.2,
+        "monthlyInsuranceCost": 4200,
+        "purchasedFromBankId": "bank_schwab",
+        "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=80",
+        "photos": [
+          "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "notes": "Corporate jet for global logistics and cross-border branch management. Range: 3,600 nm."
+      },
+      {
+        "id": "veh_yacht_1",
+        "name": "Sunseeker 76 Luxury Yacht",
+        "make": "Sunseeker",
+        "model": "76 Yacht",
+        "year": 2023,
+        "vehicleType": "yacht",
+        "condition": "Brand New",
+        "licensePlate": "M-DUBAI-76",
+        "purchasePrice": 4200000,
+        "currentValue": 3980000,
+        "annualDepreciationRate": 6,
+        "interestRateYearly": 5.8,
+        "monthlyInsuranceCost": 2800,
+        "purchasedFromBankId": "bank_dbs",
+        "imageUrl": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=1200&q=80",
+        "photos": [
+          "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "notes": "Moored at Dubai Marina. 4 en-suite cabins, hydraulic bathing platform."
+      },
+      {
+        "id": "veh_bike_1",
+        "name": "Ducati Panigale V4 SP2",
+        "make": "Ducati",
+        "model": "Panigale V4 SP2",
+        "year": 2024,
+        "vehicleType": "bike",
+        "condition": "Brand New",
+        "licensePlate": "V4-SP2",
+        "purchasePrice": 41500,
+        "currentValue": 40200,
+        "annualDepreciationRate": 8,
+        "interestRateYearly": 4.9,
+        "monthlyInsuranceCost": 140,
+        "purchasedFromBankId": "bank_chase",
+        "imageUrl": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80",
+        "photos": [
+          "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "notes": "Winter Test Livery, carbon wheels, dry clutch. Track day machine."
+      }
+    ],
+    "bankAccounts": [
+      {
+        "id": "bank_chase",
+        "bankName": "JPMorgan Chase Private Client",
+        "accountType": "Checking",
+        "accountNumberMasked": "••• 8841",
+        "balance": 265131,
+        "currency": "USD",
+        "interestRateApy": 1.2,
+        "isPrimaryForAutoDebit": true
+      },
+      {
+        "id": "bank_schwab",
+        "bankName": "Charles Schwab Treasury Cash",
+        "accountType": "High-Yield Savings",
+        "accountNumberMasked": "••• 4092",
+        "balance": 285000,
+        "currency": "USD",
+        "interestRateApy": 4.85,
+        "isPrimaryForAutoDebit": false
+      },
+      {
+        "id": "bank_dbs",
+        "bankName": "DBS Wealth Singapore",
+        "accountType": "Forex Reserve",
+        "accountNumberMasked": "••• 6120",
+        "balance": 95000,
+        "currency": "USD",
+        "interestRateApy": 3.8,
+        "isPrimaryForAutoDebit": false
+      }
+    ],
+    "properties": [
+      {
+        "id": "prop_bellevue",
+        "name": "Bellevue Waterfront Villa",
+        "propertyType": "Residential",
+        "address": "942 Lake Washington Blvd, Bellevue, WA",
+        "purchasePrice": 1650000,
+        "currentValue": 1980000,
+        "annualAppreciationRate": 5.8,
+        "isRented": true,
+        "tenantName": "Dr. Marcus Vance (Tech VP)",
+        "monthlyRentalIncome": 9200,
+        "linkedMortgageId": "emi_mortgage_bellevue",
+        "annualPropertyTax": 16500,
+        "monthlyMaintenance": 450,
+        "imageUrl": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "photos": [
+          "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "notes": "Waterfront luxury estate with private boat dock, infinity pool, and smart security system."
+      },
+      {
+        "id": "prop_austin",
+        "name": "Austin Tech Corridor Loft",
+        "propertyType": "Commercial",
+        "address": "401 Colorado St #18B, Austin, TX",
+        "purchasePrice": 620000,
+        "currentValue": 710000,
+        "annualAppreciationRate": 6.2,
+        "isRented": true,
+        "tenantName": "AeroLogic AI Design Studio",
+        "monthlyRentalIncome": 4600,
+        "linkedMortgageId": "emi_mortgage_austin",
+        "annualPropertyTax": 8400,
+        "monthlyMaintenance": 320,
+        "imageUrl": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+        "photos": [
+          "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "notes": "High-ceiling industrial creative office loft in downtown Austin leased to a growing AI firm."
+      }
+    ],
+    "businesses": [
+      {
+        "id": "biz_1",
+        "name": "Sandhu Freight & Global Logistics",
+        "industry": "Supply Chain & Freight Tech",
+        "valuation": 1850000,
+        "ownershipPercentage": 85,
+        "annualGrowthRate": 16.5,
+        "monthlyNetProfit": 22400,
+        "destinationBankId": "bank_chase",
+        "reinvestProfits": false,
+        "incorporationYear": 2021,
+        "registrationNumber": "LLC-IL-99214",
+        "notes": "Cross-border fleet logistics and warehouse fulfillment centers.",
+        "branches": [
+          {
+            "id": "branch_1",
+            "name": "Midwest Mega-Hub",
+            "location": "Chicago, IL (O'Hare Industrial)",
+            "address": "4400 Logistics Way, Des Plaines, IL",
+            "managerName": "Marcus Vance",
+            "employeeCount": 42,
+            "capitalInvested": 620000,
+            "monthlyRevenue": 98000,
+            "monthlyExpenses": 74000,
+            "valuation": 850000,
+            "status": "Active",
+            "notes": "Primary freight sorting and dispatch terminal."
+          },
+          {
+            "id": "branch_2",
+            "name": "Southwest Distribution Depot",
+            "location": "Dallas, TX (DFW Corridor)",
+            "address": "1200 Alliance Pkwy, Fort Worth, TX",
+            "managerName": "Elena Rostova",
+            "employeeCount": 28,
+            "capitalInvested": 410000,
+            "monthlyRevenue": 64000,
+            "monthlyExpenses": 49000,
+            "valuation": 550000,
+            "status": "Active",
+            "notes": "High volume regional cross-dock facility."
+          },
+          {
+            "id": "branch_3",
+            "name": "Southeast Cold Storage Expansion",
+            "location": "Atlanta, GA (Airport Gateway)",
+            "address": "880 Interstate Gateway, College Park, GA",
+            "managerName": "Derrick Hall",
+            "employeeCount": 16,
+            "capitalInvested": 350000,
+            "monthlyRevenue": 38000,
+            "monthlyExpenses": 31000,
+            "valuation": 450000,
+            "status": "Expanding",
+            "notes": "Phase 2 refrigerated expansion with automated packing."
+          }
+        ]
+      },
+      {
+        "id": "biz_2",
+        "name": "Aura Artisan Coffee Roasters",
+        "industry": "Specialty Beverage & Cafés",
+        "valuation": 620000,
+        "ownershipPercentage": 100,
+        "annualGrowthRate": 12,
+        "monthlyNetProfit": 8600,
+        "destinationBankId": "bank_schwab",
+        "reinvestProfits": false,
+        "incorporationYear": 2023,
+        "registrationNumber": "CORP-TX-44182",
+        "notes": "Direct-trade specialty micro-roastery and flagship espresso bar experiences.",
+        "branches": [
+          {
+            "id": "branch_aura_1",
+            "name": "Downtown Roastery & Tasting Room",
+            "location": "Austin, TX - South Congress",
+            "address": "1402 S Congress Ave, Austin, TX",
+            "managerName": "Chloe Bennett",
+            "employeeCount": 14,
+            "capitalInvested": 240000,
+            "monthlyRevenue": 42000,
+            "monthlyExpenses": 34500,
+            "valuation": 360000,
+            "status": "Active",
+            "notes": "Includes on-site Diedrich 12kg roaster and barista training lab."
+          },
+          {
+            "id": "branch_aura_2",
+            "name": "Domain Tech Center Kiosk",
+            "location": "Austin, TX - The Domain",
+            "address": "11500 Century Oaks Terrace, Austin, TX",
+            "managerName": "Liam Morales",
+            "employeeCount": 7,
+            "capitalInvested": 95000,
+            "monthlyRevenue": 26000,
+            "monthlyExpenses": 21500,
+            "valuation": 160000,
+            "status": "Active",
+            "notes": "High-footprint grab-and-go kiosk catering to tech campuses."
+          },
+          {
+            "id": "branch_aura_3",
+            "name": "Denver Highlands Boutique",
+            "location": "Denver, CO - Highlands",
+            "address": "3200 Tejon St, Denver, CO",
+            "managerName": "Sophia Lin",
+            "employeeCount": 0,
+            "capitalInvested": 110000,
+            "monthlyRevenue": 0,
+            "monthlyExpenses": 4500,
+            "valuation": 100000,
+            "status": "Renovating",
+            "notes": "Under architectural fit-out. Grand opening planned next quarter."
+          }
+        ]
+      }
+    ],
+    "fixedDeposits": [
+      {
+        "id": "fd_1",
+        "name": "HDFC High-Yield Fixed Term 12M",
+        "institution": "HDFC Global / Federal Bank",
+        "principal": 120000,
+        "currentAccruedValue": 124800,
+        "interestRateYearly": 7.6,
+        "compoundingFrequency": "Monthly",
+        "startDate": "2026-04-01",
+        "tenureMonths": 12,
+        "monthsElapsed": 5,
+        "isMatured": false,
+        "autoCreditBankId": "bank_chase"
+      },
+      {
+        "id": "fd_2",
+        "name": "Barclays 24-Month Guaranteed Growth",
+        "institution": "Barclays Private Bank",
+        "principal": 200000,
+        "currentAccruedValue": 211200,
+        "interestRateYearly": 6.8,
+        "compoundingFrequency": "Quarterly",
+        "startDate": "2025-10-15",
+        "tenureMonths": 24,
+        "monthsElapsed": 11,
+        "isMatured": false,
+        "autoCreditBankId": "bank_schwab"
+      }
+    ],
+    "stocks": [
+      {
+        "id": "stock_nvda",
+        "ticker": "NVDA",
+        "companyName": "NVIDIA Corporation",
+        "shares": 600,
+        "buyPrice": 92.5,
+        "currentPrice": 138.4,
+        "expectedAnnualGrowth": 18.5,
+        "dividendYieldYearly": 0.2,
+        "autoCreditDividendsToBankId": "bank_schwab"
+      },
+      {
+        "id": "stock_aapl",
+        "ticker": "AAPL",
+        "companyName": "Apple Inc.",
+        "shares": 450,
+        "buyPrice": 175,
+        "currentPrice": 228.6,
+        "expectedAnnualGrowth": 11.2,
+        "dividendYieldYearly": 0.6,
+        "autoCreditDividendsToBankId": "bank_schwab"
+      },
+      {
+        "id": "stock_spy",
+        "ticker": "SPY",
+        "companyName": "SPDR S&P 500 ETF Trust",
+        "shares": 320,
+        "buyPrice": 470,
+        "currentPrice": 574,
+        "expectedAnnualGrowth": 9.5,
+        "dividendYieldYearly": 1.35,
+        "autoCreditDividendsToBankId": "bank_schwab"
+      }
+    ],
+    "crypto": [
+      {
+        "id": "crypto_btc",
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "quantity": 3.42,
+        "buyPrice": 44500,
+        "currentPrice": 68500,
+        "expectedAnnualGrowth": 22,
+        "stakingYieldYearly": 0
+      },
+      {
+        "id": "crypto_eth",
+        "symbol": "ETH",
+        "name": "Ethereum (Staked)",
+        "quantity": 28.5,
+        "buyPrice": 2400,
+        "currentPrice": 3450,
+        "expectedAnnualGrowth": 18,
+        "stakingYieldYearly": 4.1
+      },
+      {
+        "id": "crypto_sol",
+        "symbol": "SOL",
+        "name": "Solana",
+        "quantity": 180,
+        "buyPrice": 85,
+        "currentPrice": 156,
+        "expectedAnnualGrowth": 25,
+        "stakingYieldYearly": 6.2
+      }
+    ],
+    "forex": [
+      {
+        "id": "fx_eur",
+        "currencyCode": "EUR",
+        "currencyName": "Euro",
+        "amount": 45000,
+        "buyExchangeRate": 1.06,
+        "currentExchangeRate": 1.085,
+        "notes": "European vacation & business hedging holding in Frankfurt"
+      },
+      {
+        "id": "fx_gbp",
+        "currencyCode": "GBP",
+        "currencyName": "British Pound Sterling",
+        "amount": 25000,
+        "buyExchangeRate": 1.25,
+        "currentExchangeRate": 1.282,
+        "notes": "London property fund deposit"
+      },
+      {
+        "id": "fx_sgd",
+        "currencyCode": "SGD",
+        "currencyName": "Singapore Dollar",
+        "amount": 60000,
+        "buyExchangeRate": 0.74,
+        "currentExchangeRate": 0.765,
+        "notes": "Asia-Pacific reserve liquidity"
+      }
+    ],
+    "jobs": [
+      {
+        "id": "job_arch_1",
+        "title": "Principal AI & Cloud Architect",
+        "company": "OmniTech Enterprise Systems",
+        "category": "Tech",
+        "rateBasis": "per_hour",
+        "rateAmount": 125,
+        "hoursPerDay": 8,
+        "daysPerWeek": 5,
+        "destinationBankId": "bank_chase",
+        "isActive": true,
+        "annualAppraisalRate": 8,
+        "totalEarningsToDate": 450000,
+        "shiftsCompleted": 240,
+        "description": "Distributed infrastructure design, latency optimization, and core banking ledger systems.",
+        "startDate": "2025-03-01"
+      },
+      {
+        "id": "job_advisor_2",
+        "title": "Senior Strategic Venture Advisor",
+        "company": "Aura Capital Partners",
+        "category": "Executive",
+        "rateBasis": "per_day",
+        "rateAmount": 1600,
+        "hoursPerDay": 8,
+        "daysPerWeek": 2,
+        "destinationBankId": "bank_schwab",
+        "isActive": true,
+        "annualAppraisalRate": 6,
+        "totalEarningsToDate": 180000,
+        "shiftsCompleted": 75,
+        "description": "Corporate growth roadmap, M&A due diligence, and capital allocation strategy.",
+        "startDate": "2025-08-15"
+      }
+    ],
+    "incomeSources": [
+      {
+        "id": "inc_salary",
+        "name": "Executive Tech Base Compensation",
+        "sourceType": "Salary",
+        "monthlyAmount": 24500,
+        "destinationBankId": "bank_chase",
+        "annualAppraisalRate": 6
+      },
+      {
+        "id": "inc_consulting",
+        "name": "Board Advisory & Venture Retainer",
+        "sourceType": "Consulting",
+        "monthlyAmount": 6000,
+        "destinationBankId": "bank_chase",
+        "annualAppraisalRate": 4
+      }
+    ],
+    "emis": [
+      {
+        "id": "emi_mortgage_bellevue",
+        "name": "Bellevue Waterfront Mortgage",
+        "loanType": "Home Mortgage",
+        "principalOriginal": 1200000,
+        "remainingPrincipal": 980000,
+        "interestRateYearly": 5.4,
+        "tenureMonthsOriginal": 360,
+        "tenureMonthsRemaining": 284,
+        "monthlyEmiAmount": 6742,
+        "linkedBankAccountId": "bank_chase",
+        "linkedAssetType": "property",
+        "linkedAssetId": "prop_bellevue",
+        "autoDebitEnabled": true
+      },
+      {
+        "id": "emi_mortgage_austin",
+        "name": "Austin Commercial Loan",
+        "loanType": "Commercial Loan",
+        "principalOriginal": 450000,
+        "remainingPrincipal": 368000,
+        "interestRateYearly": 6.1,
+        "tenureMonthsOriginal": 240,
+        "tenureMonthsRemaining": 188,
+        "monthlyEmiAmount": 3250,
+        "linkedBankAccountId": "bank_chase",
+        "linkedAssetType": "property",
+        "linkedAssetId": "prop_austin",
+        "autoDebitEnabled": true
+      },
+      {
+        "id": "emi_tesla",
+        "name": "Tesla Model S Plaid Auto Loan",
+        "loanType": "Car Loan",
+        "principalOriginal": 75000,
+        "remainingPrincipal": 48500,
+        "interestRateYearly": 3.99,
+        "tenureMonthsOriginal": 60,
+        "tenureMonthsRemaining": 38,
+        "monthlyEmiAmount": 1380,
+        "linkedBankAccountId": "bank_chase",
+        "linkedAssetType": "car",
+        "linkedAssetId": "car_2",
+        "autoDebitEnabled": true
+      }
+    ],
+    "recurringExpenses": [
+      {
+        "id": "exp_luxury_ins",
+        "name": "Chubb Comprehensive Umbrella & Auto Insurance",
+        "category": "Insurance",
+        "monthlyAmount": 820,
+        "dueDayOfMonth": 5,
+        "linkedBankAccountId": "bank_chase",
+        "autoDebitEnabled": true
+      },
+      {
+        "id": "exp_utilities",
+        "name": "Properties Power, Fiber & Water Utilities",
+        "category": "Utilities",
+        "monthlyAmount": 650,
+        "dueDayOfMonth": 12,
+        "linkedBankAccountId": "bank_chase",
+        "autoDebitEnabled": true
+      },
+      {
+        "id": "exp_lifestyle",
+        "name": "Concierge, Health Club & Professional Memberships",
+        "category": "Lifestyle",
+        "monthlyAmount": 950,
+        "dueDayOfMonth": 1,
+        "linkedBankAccountId": "bank_chase",
+        "autoDebitEnabled": true
+      }
+    ],
+    "simulationLogs": [
+      {
+        "id": "log_payout_1791443095711",
+        "timestamp": "2026-10-08T07:04:55.697Z",
+        "simulatedMonth": 0,
+        "simulatedDateString": "2026-10",
+        "type": "salary_deposit",
+        "title": "Automated Net Profit Payout (+122,731)",
+        "amount": 122731,
+        "direction": "inflow",
+        "bankAccountAffected": "JPMorgan Chase Private Client",
+        "details": "Transferred exact monthly net profit ($155,648 revenue - $32,917 expenses) into in-app bank account JPMorgan Chase Private Client (Ref: inapp_pay_1791443095700)."
+      },
+      {
+        "id": "log_send_wire_1791208707655_fft2c",
+        "timestamp": "2026-10-05T13:58:27.655Z",
+        "simulatedMonth": 0,
+        "simulatedDateString": "Month 0",
+        "type": "asset_purchase",
+        "title": "Wire Sent to @sophia (Sophia Chen)",
+        "amount": 100,
+        "direction": "outflow",
+        "bankAccountAffected": "JPMorgan Chase Private Client",
+        "details": "Transferred $100 from JPMorgan Chase Private Client to @sophia's Main Vault Account. (Memo: \"Test P2P Wire\")"
+      },
+      {
+        "id": "log_init",
+        "timestamp": "2026-10-05T13:58:27.641Z",
+        "simulatedMonth": 0,
+        "simulatedDateString": "Oct 2026 (Initial Baseline)",
+        "type": "salary_deposit",
+        "title": "Portfolio Baseline Established",
+        "amount": 17795740,
+        "direction": "valuation_up",
+        "details": "Initial net worth snapshot calibrated across 7 asset classes, jobs, and active debt schedules."
+      }
+    ],
+    "historyPoints": [
+      {
+        "monthIndex": 0,
+        "dateLabel": "Oct 2026",
+        "totalAssets": 19192240,
+        "totalLiabilities": 1396500,
+        "netWorth": 17795740,
+        "liquidCash": 522500
+      }
+    ],
+    "lastSettledTimestamp": "2026-10-08T07:04:55.697Z"
+  },
+  "sophia": {
+    "user": {
+      "id": "user_sophia",
+      "username": "sophia",
+      "password": "password123",
+      "fullName": "Sophia Chen",
+      "email": "sophia.chen@example.com",
+      "currency": "USD",
+      "createdAt": "2026-02-10T14:30:00.000Z",
+      "bio": "Quantitative researcher and macro investor tracking high-yield FDs, global equities, crypto yields, and apartment mortgage amortizations.",
+      "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
+      "isMasterAdmin": false,
+      "occupationTitle": "Lead Quantitative Strategist",
+      "companyName": "Citadel Meridian Partners",
+      "industry": "Quantitative Hedge Fund",
+      "careerLevel": "Director",
+      "monthlySalary": 22000,
+      "annualCareerRaiseRate": 9,
+      "experienceYears": 7,
+      "workHoursPerWeek": 45,
+      "startingAge": 27,
+      "birthDate": "1999-04-18",
+      "birthMonth": 4,
+      "targetRetirementAge": 42,
+      "lifeExpectancy": 90,
+      "locationCity": "Manhattan, New York",
+      "locationCountry": "United States",
+      "relationshipStatus": "Single",
+      "dependentsCount": 0,
+      "lifestyleTier": "High-Income Executive",
+      "residenceType": "High-Rise Luxury Loft",
+      "monthlyLifestyleExpense": 6200,
+      "lifestyleBreakdown": {
+        "diningAndFineFood": 2000,
+        "travelAndAviation": 2200,
+        "fitnessAndWellness": 800,
+        "shoppingAndWardrobe": 800,
+        "hobbiesAndMotorsport": 400
+      },
+      "hobbies": [
+        "Macro Economic Research",
+        "Alpine Skiing",
+        "Fine Wine Tasting",
+        "Classical Piano",
+        "Pilates"
+      ],
+      "lifePhilosophy": "Precision in risk management, compounding efficiency, and intellectual autonomy.",
+      "lifeGoals": [
+        {
+          "id": "goal_s1",
+          "title": "Hit $3,000,000 Investment Portfolio",
+          "targetAge": 30,
+          "targetNetWorth": 3000000,
+          "category": "wealth",
+          "completed": false
+        },
+        {
+          "id": "goal_s2",
+          "title": "Launch Proprietary Global Macro Fund",
+          "targetAge": 35,
+          "category": "career",
+          "completed": false
+        }
+      ]
+    },
+    "simulatedMonth": 0,
+    "simulationStartDate": "2026-10-05",
+    "cars": [],
+    "bankAccounts": [
+      {
+        "id": "bank_starter",
+        "bankName": "Main Vault Account",
+        "accountType": "Savings",
+        "accountNumberMasked": "••• 1001",
+        "balance": 25900,
+        "currency": "USD",
+        "interestRateApy": 3.5,
+        "isPrimaryForAutoDebit": true
+      }
+    ],
+    "properties": [],
+    "businesses": [],
+    "fixedDeposits": [],
+    "stocks": [],
+    "crypto": [],
+    "forex": [],
+    "jobs": [],
+    "incomeSources": [],
+    "emis": [],
+    "recurringExpenses": [],
+    "simulationLogs": [
+      {
+        "id": "log_payout_1791443095757",
+        "timestamp": "2026-10-08T07:04:55.750Z",
+        "simulatedMonth": 0,
+        "simulatedDateString": "2026-10",
+        "type": "salary_deposit",
+        "title": "Automated Net Profit Payout (+15,800)",
+        "amount": 15800,
+        "direction": "inflow",
+        "bankAccountAffected": "Main Vault Account",
+        "details": "Transferred exact monthly net profit ($22,000 revenue - $6,200 expenses) into in-app bank account Main Vault Account (Ref: inapp_pay_1791443095751)."
+      },
+      {
+        "id": "log_recv_wire_1791208707655_fft2c",
+        "timestamp": "2026-10-05T13:58:27.655Z",
+        "simulatedMonth": 0,
+        "simulatedDateString": "Month 0",
+        "type": "salary_deposit",
+        "title": "Wire Received from @davis (Davis Sandhu)",
+        "amount": 100,
+        "direction": "inflow",
+        "bankAccountAffected": "Main Vault Account",
+        "details": "Received $100 into Main Vault Account from @davis. (Memo: \"Test P2P Wire\")"
+      },
+      {
+        "id": "log_init_clean",
+        "timestamp": "2026-10-05T13:58:27.641Z",
+        "simulatedMonth": 0,
+        "simulatedDateString": "Day 1 Baseline",
+        "type": "salary_deposit",
+        "title": "Fresh Ledger Initialized",
+        "amount": 10000,
+        "direction": "inflow",
+        "details": "Initial starter account initialized. Add your cars, bank accounts, properties, businesses, FDs, jobs, and EMIs."
+      }
+    ],
+    "historyPoints": [
+      {
+        "monthIndex": 0,
+        "dateLabel": "Month 0",
+        "totalAssets": 10000,
+        "totalLiabilities": 0,
+        "netWorth": 10000,
+        "liquidCash": 10000
+      }
+    ],
+    "lastSettledTimestamp": "2026-10-08T07:04:55.750Z"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "UserAccount": {
+      "title": "UserAccount",
+      "description": "User account and profile for cross-device authentication and access control.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique user identifier" },
+        "username": { "type": "string", "description": "Unique username" },
+        "password": { "type": "string", "description": "Hashed or secret auth token for AEG user" },
+        "fullName": { "type": "string", "description": "Display name" },
+        "email": { "type": "string", "description": "Google email or personal email address" },
+        "currency": { "type": "string", "description": "Base currency code" },
+        "createdAt": { "type": "string", "description": "Creation date ISO string" },
+        "bio": { "type": "string", "description": "User biography" },
+        "avatarUrl": { "type": "string", "description": "User profile avatar URL" },
+        "authProvider": { "type": "string", "description": "Provider: aeg or google", "enum": ["aeg", "google"] },
+        "googleId": { "type": "string", "description": "Google OAuth subject identifier" },
+        "isMasterAdmin": { "type": "boolean", "description": "Master administrative privileges" }
+      },
+      "required": ["id", "username", "fullName", "currency", "createdAt"]
+    },
+    "Portfolio": {
+      "title": "Portfolio",
+      "description": "Comprehensive user financial portfolio storing cars, properties, businesses, bank accounts, and simulation state.",
+      "type": "object",
+      "properties": {
+        "username": { "type": "string", "description": "Associated user account username" },
+        "simulatedMonth": { "type": "number", "description": "Current month index in the timeline" },
+        "simulationStartDate": { "type": "string", "description": "Start date for simulation" },
+        "data": { "type": "string", "description": "Serialized JSON string or embedded structured portfolio state" },
+        "updatedAt": { "type": "string", "description": "Timestamp of last portfolio modification" }
+      },
+      "required": ["username", "simulatedMonth"]
+    },
+    "SystemSettings": {
+      "title": "SystemSettings",
+      "description": "Global economic parameters including interest rates and depreciation benchmarks.",
+      "type": "object",
+      "properties": {
+        "propertyAppreciationRate": { "type": "number", "description": "Default annual property appreciation rate" },
+        "propertyMortgageRate": { "type": "number", "description": "Default property mortgage rate" },
+        "vehicleDepreciationRate": { "type": "number", "description": "Default vehicle depreciation rate" },
+        "vehicleFinanceRate": { "type": "number", "description": "Default vehicle finance interest rate" },
+        "updatedBy": { "type": "string", "description": "Email of master admin who updated settings" },
+        "updatedAt": { "type": "string", "description": "Timestamp of last modification" }
+      },
+      "required": ["updatedAt"]
+    },
+    "ChatMessage": {
+      "title": "ChatMessage",
+      "description": "P2P instant message, photo share, or financial asset spec shared between users.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique message identifier" },
+        "senderUsername": { "type": "string", "description": "Username of sender" },
+        "receiverUsername": { "type": "string", "description": "Username of recipient" },
+        "text": { "type": "string", "description": "Message text body" },
+        "photoUrl": { "type": "string", "description": "Attached image URL" },
+        "sharedData": { "type": "object", "description": "Embedded vehicle, property, business, or wire transfer data" },
+        "timestamp": { "type": "string", "description": "ISO timestamp of message" },
+        "read": { "type": "boolean", "description": "Read receipt status" }
+      },
+      "required": ["id", "senderUsername", "receiverUsername", "timestamp", "read"]
+    },
+    "MoneyTransfer": {
+      "title": "MoneyTransfer",
+      "description": "Direct bank wire transfer between registered user accounts.",
+      "type": "object",
+      "properties": {
+        "transactionId": { "type": "string", "description": "Unique wire transaction reference" },
+        "senderUsername": { "type": "string", "description": "Sender username" },
+        "receiverUsername": { "type": "string", "description": "Recipient username" },
+        "fromBankAccountId": { "type": "string", "description": "Sender bank account identifier" },
+        "amount": { "type": "number", "description": "Wire amount in base currency" },
+        "memo": { "type": "string", "description": "Wire note or reference" },
+        "timestamp": { "type": "string", "description": "ISO timestamp of transfer execution" }
+      },
+      "required": ["transactionId", "senderUsername", "receiverUsername", "amount", "timestamp"]
+    },
+    "PayoutRecord": {
+      "title": "PayoutRecord",
+      "description": "Automated monthly net profit background payout record and payment gateway transfer status.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique payout transaction identifier" },
+        "userId": { "type": "string", "description": "User identifier" },
+        "username": { "type": "string", "description": "User account handle" },
+        "billingPeriod": { "type": "string", "description": "Billing period month label (e.g. 2026-10)" },
+        "monthIndex": { "type": "number", "description": "Timeline simulation month index" },
+        "totalRevenue": { "type": "number", "description": "Sum of all monthly business, rental, salary, and dividend revenues" },
+        "totalExpenses": { "type": "number", "description": "Sum of all monthly business overheads, loans, and recurring expenses" },
+        "grossNetProfit": { "type": "number", "description": "Total Revenue minus Total Expenses" },
+        "carriedLossDeducted": { "type": "number", "description": "Loss carryover offset from previous unprofitable months" },
+        "netPayoutAmount": { "type": "number", "description": "Exact profit transferred via payment gateway (0 if loss or break-even)" },
+        "newLossCarryover": { "type": "number", "description": "Unrecovered net loss carried forward to next cycle" },
+        "currency": { "type": "string", "description": "Currency code" },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "processing", "succeeded", "skipped_zero_profit", "skipped_loss", "failed"],
+          "description": "Lifecycle status of the background payout execution"
+        },
+        "connectedBankAccountId": { "type": "string", "description": "Target connected bank account ID" },
+        "connectedBankName": { "type": "string", "description": "Target bank name" },
+        "stripeConnectedAccountId": { "type": "string", "description": "Stripe Connect custom or express account ID" },
+        "gatewayTransferId": { "type": "string", "description": "Payment gateway transaction reference ID" },
+        "idempotencyKey": { "type": "string", "description": "Cryptographic idempotency key preventing duplicate payouts" },
+        "failureReason": { "type": "string", "description": "Error details if gateway payout fails" },
+        "breakdown": { "type": "object", "description": "Detailed itemized breakdown of revenues and expenses" },
+        "executedAt": { "type": "string", "description": "ISO execution timestamp" },
+        "createdAt": { "type": "string", "description": "ISO creation timestamp" }
+      },
+      "required": ["id", "username", "billingPeriod", "totalRevenue", "totalExpenses", "grossNetProfit", "netPayoutAmount", "status", "idempotencyKey", "executedAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserAccount",
+      "description": "Registered user accounts for AEG and Google users."
+    },
+    "/portfolios/{username}": {
+      "schema": "Portfolio",
+      "description": "User portfolios and timeline simulation models."
+    },
+    "/messages/{messageId}": {
+      "schema": "ChatMessage",
+      "description": "Direct chat messages and shared assets between users."
+    },
+    "/transfers/{transferId}": {
+      "schema": "MoneyTransfer",
+      "description": "P2P bank money transfers and settlement receipts."
+    },
+    "/payouts/{payoutId}": {
+      "schema": "PayoutRecord",
+      "description": "Automated monthly net profit background payouts and payment gateway transaction logs."
+    },
+    "/system_settings/{settingId}": {
+      "schema": "SystemSettings",
+      "description": "Global economic and master administrative configurations."
+    }
+  }
+}

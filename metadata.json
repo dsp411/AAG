@@ -1,0 +1,8 @@
+{
+  "name": "Apne Aali Game - AAG",
+  "description": "Comprehensive personal wealth and finance tracker for cars, properties, bank accounts, appreciating assets (FDs, stocks, crypto, forex), and auto-deducting EMIs and expenses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

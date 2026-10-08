@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --spotify-bg: #121212;
+  --spotify-surface: #181818;
+  --spotify-elevated: #242424;
+  --spotify-highlight: #2a2a2a;
+  --spotify-green: #1ed760;
+  --spotify-green-hover: #3be477;
+  --spotify-text-base: #ffffff;
+  --spotify-text-subdued: #b3b3b3;
+  --spotify-border: #282828;
+}
+
+html {
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Universal smooth scrolling across all scrollable viewports and containers */
+.scroll-smooth,
+[data-scroll-container],
+.overflow-y-auto,
+.overflow-x-auto,
+.overflow-auto,
+main {
+  scroll-behavior: smooth !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Custom dark scrollbar matching Spotify */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}

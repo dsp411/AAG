@@ -1,0 +1,57 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isMasterAdmin() {
+      return isAuthenticated() && (
+        request.auth.token.email == 'davissandhu2@gmail.com' ||
+        request.auth.uid == 'davis'
+      );
+    }
+
+    // User accounts collection
+    match /users/{userId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // User Portfolios
+    match /portfolios/{username} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Global System Settings (Master Admin)
+    match /system_settings/{settingId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // P2P Chat Messages and Shared Media
+    match /messages/{messageId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Direct Bank Wire Transfers
+    match /transfers/{transferId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Monthly Automated Background Payouts
+    match /payouts/{payoutId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Connection test document
+    match /test/{docId} {
+      allow read, write: if true;
+    }
+  }
+}

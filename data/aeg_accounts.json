@@ -1,0 +1,148 @@
+[
+  {
+    "id": "user_davis",
+    "username": "davis",
+    "password": "password123",
+    "fullName": "Davis Sandhu",
+    "email": "davissandhu2@gmail.com",
+    "currency": "USD",
+    "createdAt": "2026-01-15T09:00:00.000Z",
+    "bio": "Tech entrepreneur, venture builder & multi-asset investor tracking compounding portfolios, exotic vehicles, luxury real estate, and financial independence.",
+    "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    "isMasterAdmin": true,
+    "occupationTitle": "Founder & Managing Partner",
+    "companyName": "AAG Capital & Ventures",
+    "industry": "FinTech, Artificial Intelligence & High-Performance Assets",
+    "careerLevel": "Founder & CEO",
+    "monthlySalary": 28500,
+    "annualCareerRaiseRate": 8.5,
+    "experienceYears": 9,
+    "workHoursPerWeek": 48,
+    "startingAge": 28,
+    "birthDate": "1998-06-12",
+    "birthMonth": 6,
+    "targetRetirementAge": 45,
+    "lifeExpectancy": 88,
+    "locationCity": "Bellevue & Seattle, WA",
+    "locationCountry": "United States",
+    "relationshipStatus": "In a Relationship",
+    "dependentsCount": 0,
+    "lifestyleTier": "Luxury & High-Flyer",
+    "residenceType": "Waterfront Villa & City Penthouse",
+    "monthlyLifestyleExpense": 8500,
+    "lifestyleBreakdown": {
+      "diningAndFineFood": 2500,
+      "travelAndAviation": 3000,
+      "fitnessAndWellness": 1000,
+      "shoppingAndWardrobe": 1200,
+      "hobbiesAndMotorsport": 800
+    },
+    "hobbies": [
+      "Supercar Track Days",
+      "Private Aviation & Jet Piloting",
+      "Horology & Rare Timepieces",
+      "Waterfront Boating & Yachting",
+      "Venture Tech Investing"
+    ],
+    "lifePhilosophy": "Relentless compounding of capital, physical peak health, absolute time sovereignty, and enduring enterprise impact.",
+    "lifeGoals": [
+      {
+        "id": "goal_1",
+        "title": "Reach $5,000,000 Liquid Net Worth",
+        "targetAge": 32,
+        "targetNetWorth": 5000000,
+        "category": "wealth",
+        "completed": false
+      },
+      {
+        "id": "goal_2",
+        "title": "Acquire 76ft Luxury Motor Yacht",
+        "targetAge": 30,
+        "targetNetWorth": 4000000,
+        "category": "lifestyle",
+        "completed": true
+      },
+      {
+        "id": "goal_3",
+        "title": "Complete Commercial Pilot Jet Certification",
+        "targetAge": 33,
+        "category": "career",
+        "completed": false
+      },
+      {
+        "id": "goal_4",
+        "title": "Achieve Complete Financial Freedom (FIRE Target)",
+        "targetAge": 45,
+        "targetNetWorth": 15000000,
+        "category": "wealth",
+        "completed": false
+      }
+    ],
+    "lossCarryoverBalance": 0
+  },
+  {
+    "id": "user_sophia",
+    "username": "sophia",
+    "password": "password123",
+    "fullName": "Sophia Chen",
+    "email": "sophia.chen@example.com",
+    "currency": "USD",
+    "createdAt": "2026-02-10T14:30:00.000Z",
+    "bio": "Quantitative researcher and macro investor tracking high-yield FDs, global equities, crypto yields, and apartment mortgage amortizations.",
+    "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
+    "isMasterAdmin": false,
+    "occupationTitle": "Lead Quantitative Strategist",
+    "companyName": "Citadel Meridian Partners",
+    "industry": "Quantitative Hedge Fund",
+    "careerLevel": "Director",
+    "monthlySalary": 22000,
+    "annualCareerRaiseRate": 9,
+    "experienceYears": 7,
+    "workHoursPerWeek": 45,
+    "startingAge": 27,
+    "birthDate": "1999-04-18",
+    "birthMonth": 4,
+    "targetRetirementAge": 42,
+    "lifeExpectancy": 90,
+    "locationCity": "Manhattan, New York",
+    "locationCountry": "United States",
+    "relationshipStatus": "Single",
+    "dependentsCount": 0,
+    "lifestyleTier": "High-Income Executive",
+    "residenceType": "High-Rise Luxury Loft",
+    "monthlyLifestyleExpense": 6200,
+    "lifestyleBreakdown": {
+      "diningAndFineFood": 2000,
+      "travelAndAviation": 2200,
+      "fitnessAndWellness": 800,
+      "shoppingAndWardrobe": 800,
+      "hobbiesAndMotorsport": 400
+    },
+    "hobbies": [
+      "Macro Economic Research",
+      "Alpine Skiing",
+      "Fine Wine Tasting",
+      "Classical Piano",
+      "Pilates"
+    ],
+    "lifePhilosophy": "Precision in risk management, compounding efficiency, and intellectual autonomy.",
+    "lifeGoals": [
+      {
+        "id": "goal_s1",
+        "title": "Hit $3,000,000 Investment Portfolio",
+        "targetAge": 30,
+        "targetNetWorth": 3000000,
+        "category": "wealth",
+        "completed": false
+      },
+      {
+        "id": "goal_s2",
+        "title": "Launch Proprietary Global Macro Fund",
+        "targetAge": 35,
+        "category": "career",
+        "completed": false
+      }
+    ],
+    "lossCarryoverBalance": 0
+  }
+]

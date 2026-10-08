@@ -1,0 +1,26 @@
+'use client';
+
+export default function Error({
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
+  return (
+    <div className="min-h-screen bg-[#121212] text-white flex flex-col items-center justify-center p-6 text-center select-none">
+      <div className="w-16 h-16 rounded-full bg-rose-500/20 text-rose-400 flex items-center justify-center text-2xl font-bold mb-4">
+        500
+      </div>
+      <h1 className="text-2xl font-bold tracking-tight mb-2">Something went wrong</h1>
+      <p className="text-sm text-[#a0a0a0] max-w-md mb-6">
+        An unexpected error occurred in the portfolio system.
+      </p>
+      <button
+        onClick={() => reset()}
+        className="px-6 py-2.5 rounded-full bg-[#1ed760] hover:bg-[#3be477] text-black font-bold text-xs uppercase tracking-wider transition-transform active:scale-95 cursor-pointer"
+      >
+        Try Again
+      </button>
+    </div>
+  );
+}
